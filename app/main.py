@@ -4,5 +4,5 @@ app = FastAPI()
 
 
 @app.get("/")
-def root():
+def main():
     return "Home Page"
