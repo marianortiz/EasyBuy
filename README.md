@@ -505,3 +505,9 @@ HTTP/1.1 {CODE} Custom Error
     'message' : 'Custom error message'
  }
 ```
+
+
+# AGREGAR:
+
+- Listar los articulos a los que estoy suscripto: Como usuario quiero ver todos los articulos a los que me he suscripto.
+- Paginar los usuarios suscriptos a un articulo, por que si temgo millones de usuarios suscriptos a un articulo seria imposible de mostrar.
