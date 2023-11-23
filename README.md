@@ -74,7 +74,7 @@ Mensaje
 
 <p>Escucha a Catalog para eliminar el Articulo cuando este se elimine del catálogo.</p>
 
-	catalog-stock/articles
+	TOPIC catalog-delete/articles
 
 
 ### Success Response
@@ -95,7 +95,7 @@ Mensaje
 
 <p>Escucha de mensajes logout desde auth.</p>
 
-	auth/logout
+	TOPIC auth/logout
 
 
 ### Success Response
@@ -116,7 +116,7 @@ Mensaje
 
 <p>Cuando se agrega nuevo stock a un Articulo que no tenia stock, se da alerta para que se notifique al usuario asociado al articulo que ya hay nuevo stock disponible.</p>
 
-	stock/new-stock
+	FANOUT stock/new-stock
 
 
 ### Success Response
@@ -149,7 +149,7 @@ Mensaje
 
 <p>Cuando se modifica el precio de un Articulo con un precio menor al que tenia, se da alerta para que se notifique al usuario asociado al articulo de que hay una oferta en el Articulo.</p>
 
-	price/new-price
+	FANOUT price/new-price
 
 
 ### Success Response
