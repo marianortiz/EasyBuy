@@ -28,7 +28,7 @@ Microservicio de Compra Facil
 
 <p>Escucha a Catalog para saber cuando se modifica el stock (agrega mas stock) de un artículo.</p>
 
-	catalog-stock/stock-update
+	TOPIC catalog-stock/stock-update
 
 
 ### Success Response
@@ -51,7 +51,7 @@ Mensaje
 
 <p>Escucha a Catalog para saber cuando se modifica el precio (menor precio) de un artículo.</p>
 
-	catalog-price/price-update
+	TOPIC catalog-price/price-update
 
 
 ### Success Response
@@ -60,7 +60,7 @@ Mensaje
 
 ```
 {
-  "type": "article-stock-update",
+  "type": "article-price-update",
   "message": {
     "articleId": "{articleId}",
     "stock": "{articleStock}",
